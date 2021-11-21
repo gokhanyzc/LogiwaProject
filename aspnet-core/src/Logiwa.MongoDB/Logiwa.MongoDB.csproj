@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Logiwa</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Logiwa.Domain\Logiwa.Domain.csproj" />
+    <PackageReference Include="Humanizer.Core" Version="2.10.1" />
+    <PackageReference Include="MongoDb.Bson.NodaTime" Version="2.1.0" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.12.3" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.MongoDB" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.SettingManagement.MongoDB" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.IdentityServer.MongoDB" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.MongoDB" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.AuditLogging.MongoDB" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.MongoDB" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.BlobStoring.Database.MongoDB" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.Identity.Pro.MongoDB" Version="4.3.2" />
+    <PackageReference Include="Volo.Saas.MongoDB" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.LanguageManagement.MongoDB" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.TextTemplateManagement.MongoDB" Version="4.3.2" />
+  </ItemGroup>
+
+</Project>

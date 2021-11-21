@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Logiwa</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Logiwa.Domain\Logiwa.Domain.csproj" />
+    <ProjectReference Include="..\Logiwa.Application.Contracts\Logiwa.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.95.4" />
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
+    <PackageReference Include="PuppeteerSharp" Version="4.0.0" />
+    <PackageReference Include="Volo.Abp.BlobStoring.FileSystem" Version="4.3.3" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="4.3.2" />
+    <PackageReference Include="Volo.Saas.Host.Application" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.AuditLogging.Application" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.Identity.Pro.Application" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.IdentityServer.Application" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.Account.Pro.Public.Application" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.Account.Pro.Admin.Application" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.LanguageManagement.Application" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.TextTemplateManagement.Application" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.LeptonTheme.Management.Application" Version="4.3.2" />
+  </ItemGroup>
+
+</Project>
